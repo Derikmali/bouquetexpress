@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bouquet Express | Uber Eats Cloud Store</title>
+    <meta
+      name="description"
+      content="Bouquet Express is your Uber Eats cloud store for fresh flowers, elegant bouquets, and same-day floral surprises."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">Bouquet Express</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn-small" href="#order">Order Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Uber Eats Cloud Store</p>
+            <h1>Fresh flowers delivered with style.</h1>
+            <p class="hero-copy">
+              Welcome to <strong>Bouquet Express</strong> — your go-to floral shop for
+              birthdays, anniversaries, and everyday moments. Browse our best-selling
+              arrangements and order instantly through Uber Eats.
+            </p>
+            <div class="hero-actions" id="order">
+              <a
+                class="btn"
+                href="https://www.ubereats.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Order on Uber Eats</a
+              >
+              <a class="btn btn-secondary" href="#menu">View Menu</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="Featured bouquet">
+            <h2>Featured</h2>
+            <p class="featured-name">Signature Rose Box</p>
+            <p>Premium roses arranged in our elegant hatbox.</p>
+            <span class="price">From $49</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="container">
+          <h2>Menu</h2>
+          <p class="section-copy">
+            Handcrafted floral options made fresh daily and ready for rapid delivery.
+          </p>
+          <div class="menu-grid">
+            <article class="menu-item">
+              <h3>Classic Bouquet</h3>
+              <p>Seasonal blooms wrapped in our signature style.</p>
+              <span>$29</span>
+            </article>
+            <article class="menu-item">
+              <h3>Romance Bundle</h3>
+              <p>Red roses, greenery, and a handwritten note card.</p>
+              <span>$45</span>
+            </article>
+            <article class="menu-item">
+              <h3>Pastel Mix</h3>
+              <p>Soft-toned flowers for thoughtful everyday gifting.</p>
+              <span>$34</span>
+            </article>
+            <article class="menu-item">
+              <h3>Celebration Luxe</h3>
+              <p>Premium arrangement for milestones and special events.</p>
+              <span>$59</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              Need a custom arrangement or same-day recommendation? Reach out and our
+              team will help.
+            </p>
+          </div>
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:hello@bouquetexpress.com">hello@bouquetexpress.com</a>
+            </li>
+            <li><strong>Hours:</strong> Mon–Sun, 9:00 AM – 10:00 PM</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Bouquet Express. All rights reserved.</p>
+        <a href="https://www.ubereats.com" target="_blank" rel="noopener noreferrer"
+          >Order via Uber Eats</a
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
